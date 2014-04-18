@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".MainActivity" >
+	<RadioGroup
+        android:id="@+id/radioSort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+ 
+        <RadioButton
+            android:id="@+id/radioSortTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_title_sort" 
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/radioLatestFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_latest_sort" />
+         
+         <RadioButton
+            android:id="@+id/radioOldestFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_oldest_sort" 
+             />
+ 
+    </RadioGroup>
+
+    
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioSort"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+</RelativeLayout>
+

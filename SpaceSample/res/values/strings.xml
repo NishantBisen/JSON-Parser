@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpaceSample</string>
+    <string name="title_activity_main">SpaceSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="radio_title_sort">Alphabetically </string>
+    <string name="radio_latest_sort">Latest </string>
+    <string name="radio_oldest_sort">Oldest</string>
+
+    
+</resources>

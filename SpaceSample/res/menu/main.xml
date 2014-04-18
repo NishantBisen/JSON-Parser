@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.spacesample.MainActivity" >
+
+    <item
+        android:id="@+id/datecreated_latest"
+        android:orderInCategory="100"
+        android:title="@string/radio_latest_sort"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/datecreated_oldest"
+        android:orderInCategory="100"
+        android:title="@string/radio_oldest_sort"
+        app:showAsAction="never"/>
+    
+     <item
+        android:id="@+id/alphabetically"
+        android:orderInCategory="100"
+        android:title="@string/radio_title_sort"
+        app:showAsAction="never"/>
+
+</menu>
